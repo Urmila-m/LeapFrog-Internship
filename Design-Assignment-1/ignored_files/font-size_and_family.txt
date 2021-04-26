@@ -1,0 +1,20 @@
+Tutangle logo: 50
+search bar: 10
+search: 9
+username: 15
+logout: 11
+
+Recent Searches: 14
+Recent Searches element: 11
+Same for video tutorials
+entries: 24
+all entries: 10
+Friends: 9
+NEW ENTRY: 10
+Blade runner: 14
+by Mary: 11
+From Topic: 11
+footer: 9
+
+Create new entry: 13
+Friend requests: 11

@@ -1,0 +1,233 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TuTangle</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+	<div class="nav">
+		<div class="container center">
+			<img id="logo" src="assets/icons/logo.png" alt="logo">
+			<form action="POST">
+				<div class="search-bar">
+					<img src="assets/rounded_button_corners/search_bar_left_corner.png" alt="search bar left corner">
+					<input type="text" id="search-bar-input" name="search_text" placeholder="Search By Term, Member, or Entry Title">
+					<img id="search-icon" src="assets/icons/search.png" alt="search icon">
+					<img src="assets/rounded_button_corners/search_bar_right_corner.png" alt="search bar right corner">
+				</div>
+				<div class="search_btn_wrapper">
+					<div id="btn-search-left"></div>
+					<button id="btn-search" type="submit">SEARCH</button>
+					<div id="btn-search-right"></div>
+				</div>
+			</form>
+			
+			<div class="user-details">
+				<h4><a>Joe Burros</a></h4>
+				<ul>
+					<li><a>Home |</a></li>
+					<li><a>Settings |</a></li>
+					<li><a>Log Out </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="secondary-nav">
+		<div class="container">
+			<ul class="secondary-nav-actions">
+				<li><a>Create New Entry</a></li>
+				<li><a>My Topic Boxes</a></li>
+				<li><a>Friends</a></li>
+				<li><a>Invite New Member</a></li>
+			</ul>
+			<ul class="secondary-nav-notifications">
+				<li>
+					<img src="assets/icons/Task_boxes_invite_active.png" alt="tak invite icon"/>
+					<a>Topic Boxes Invites-2</a>
+				</li>
+				<li>
+					<img src="assets/icons/friend_passive.png" alt="friend icon"/>
+					<a>Friend Requests - 0</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="content">
+			<div class="left-side-wrapper">
+				<div class="top-wrapper">
+					<h4 class="side-pane-header">Recent Searches</h4>
+					<ul>
+						<li class="side-pane-list"> 
+							<a>Nick Cave and The Bad Seeds</a>
+							<img src="assets/icons/download.png" alt="download icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>African Animals</a>
+							<img src="assets/icons/download.png" alt="download icon"/>
+						</li>
+					</ul>
+				</div>
+				<div class="bottom-wrapper">
+					<h4 class="side-pane-header">Recent Searches</h4>
+					<ul>
+						<li class="side-pane-list">
+							<a>Different versions of the Tristan Und Isolde Prelude</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>Music</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>Guitar</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>Bob Cohen</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>Mark Schnack</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+						<li class="side-pane-list">
+							<a>Jefferson Dickey</a>
+							<img src="assets/icons/options.png" alt="options icon"/>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-content-wrapper">
+				<h2>Entries</h2>
+				<div class="entries-header">
+					<div class="entry-left-panel">
+						<img id="all-entries-left-corner" src="assets/rounded_button_corners/all_entries_left_corner.png" alt="left rounded corner">
+						<div class="entries-options">
+							<p>All Entries</p>
+							<div class="entries-sub-options-wrapper">
+								<div id="all-members" class="entries-sub-options">
+									<div id="all-members-left" class="left-corner"></div>
+									<p id="all-members-id">All Members</p>
+									<div id="all-members-right" class="right-corner"></div>
+								</div>
+								<div id="friends" class="entries-sub-options">
+									<div id="friends-left" class="left-corner"></div>
+									<p id="friends-id">Friends</p>
+									<div id="friends-right" class="right-corner"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="entry-right-panel">
+						<div class="entries-options">
+							<p>Subscribed</p>
+							<div id="entry-subscriber-options-wrapper">
+								<div id="new-entries" class="entries-sub-options">
+									<div id="new-entries-left" class="left-corner"></div>
+									<p id="new-entries-id">New Entries</p>
+									<div id="new-entries-right" class="right-corner"></div>
+								</div>
+								<div id="new-comments" class="entries-sub-options">
+									<div id="new-comments-left" class="left-corner"></div>
+									<p id="new-comments-id">New Comments</p>
+									<div id="new-comments-right" class="right-corner"></div>
+								</div>
+							</div>
+						</div>
+					<img id="subscribed-right-corner" src="assets/rounded_button_corners/all_entries_right_corner.png" alt="grey right design corner"/>
+
+					</div>
+				</div>
+				<div class="divider"></div>
+				<ul id="entries-list">
+					<li class="entry-item">
+							<img class="entry-image" src="assets/icons/male_face_1.png" alt="male face">
+							<div class="entry-desc">
+								<h5>Day for Night by Francois Truffat, a ground breaking film</h5>
+								<p class="extra-info">by <span><a class="by">Alan Coe</a></span> | Febrary 10, 2012 | <span class="subscribed">Subscribed</span></p>
+								<p class="extra-info">From Topic Box: <span class="from"><a>My Favorite Movies</a></span></p>
+							</div>
+							<hr class="entry-divider"/>
+					</li>
+					
+					<li class="entry-item">
+						<img class="entry-image" src="assets/icons/female_face.png" alt="female face">
+						<div class="entry-desc">
+							<h5><a class="new-class">NEW ENTRY!</a></h5>
+							<h5>Blade Runner, The Director's Cut</h5>
+							<p class="extra-info">by <span><a class="by">Mary Pilot</a></span> | Febrary 8, 2012</p>
+							<p class="extra-info">From Topic Box: <span class="from"><a>Behind the Scnene</a></span></p>
+						</div>
+						<hr class="entry-divider"/>
+					</li> 
+					<li class="entry-item">
+						<img class="entry-image" src="assets/icons/couple_face.png" alt="couple face">
+						<div class="entry-desc">
+							<h5><a class="new-class">NEW COMMENT!</a></h5>
+							<h5>The Best French restaurant in Chicago?</h5>
+							<p class="extra-info">by <span><a class="by">Jim Roy</a></span> | Febrary 7, 2012</p>
+							<p class="extra-info">From Topic Box: <span class="from"><a>Chicago Restaurants Review</a></span></p>
+						</div>
+						<hr class="entry-divider"/>
+					</li> 
+					<li class="entry-item">
+						<img class="entry-image" src="assets/icons/male_face_2.png" alt="male face">
+						<div class="entry-desc">
+							<h5>The Meaning of Night. Dark but incredibly well written.</h5>
+							<p class="extra-info">by <span><a class="by">John-Peter Moise</a></span> | Febrary 7, 2012 | <span class="subscribed">Subscribed</span></p>
+							<p class="extra-info">From Topic Box: <span class="from"><a>Books Read and Books to Read</a></span></p>
+						</div>
+						<hr class="entry-divider"/>
+					</li> 
+					<li class="entry-item">
+						<img class="entry-image" src="assets/icons/female_closeup.png" alt="female_closeup image">
+						<div class="entry-desc">
+							<h5><a class="invite-class">TOPIC BOX INVITE!</a></h5>
+							<h5>Day for Night by Francois Truffat, a ground breaking film</h5>
+							<p class="extra-info">by <span><a class="by">Alan Coe</a></span> | Febrary 10, 2012</p>
+							<p class="extra-info">From Topic Box: <span class="from"><a>My Favorite Movies</a></span></p>
+						</div>
+						<hr class="entry-divider"/>
+					</li> 
+				</ul>
+			</div>
+			<div class="right-side-wrapper">
+				<h4 class="side-pane-header">Video Tutorials</h4>
+				<ul>
+					<li class="side-pane-list"><a>Overview of TuTangle</a></li>
+					<li class="side-pane-list"><a>Searching the Site</a></li>
+					<li class="side-pane-list"><a>Previous and Saved Searches</a></li>
+					<li class="side-pane-list"><a>The Topic Box Page</a></li>
+					<li class="side-pane-list"><a>Creating a Topic Box</a></li>
+					<li class="side-pane-list"><a>View of Topic Box Entries</a></li>
+					<li class="side-pane-list"><a>Creating an Entry</a></li>
+					<li class="side-pane-list"><a>Privacy Settings</a></li>
+					<li class="side-pane-list"><a>Co-Authoring</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container center">
+			<ul class="footer-content">
+				<li><a>About us</a><b>.</b></li>
+				<li><a>Contact us</a><b>.</b></li>
+				<li><a>Terms of Use</a><b>.</b></li>
+				<li><a>Privacy Policy</a><b>.</b></li>
+				<li><a>Feedback</a></li>
+			</ul>
+			<div class="footer-copyright">
+				<span>&copy; TuTangle 2013</span>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
