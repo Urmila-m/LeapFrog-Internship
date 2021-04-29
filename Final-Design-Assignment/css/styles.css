@@ -7,21 +7,19 @@
 }
 
 /* header styling */
-.header{
-    width: 100%;
+header{
     background-image: url(../assets/banner/background_image.png);
 }
 
-nav{
-    width: 100%;
-    height: 100px;
-}
-
 .logo{
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Exo';
     font-weight: bold;
-    padding: 26px 0px;
+    padding: 24px 0px;
+}
+
+.logo p{
+    padding: 15px 0px;
 }
 
 .menu, .nav-right{
@@ -31,7 +29,7 @@ nav{
 }
 
 .menu-item{
-    padding: 20px 24px;
+    padding: 20px 12px;
 }
 
 .nav-right-item{
@@ -48,17 +46,19 @@ nav{
     font-size: 16px;
     font-family: 'Lato';
     font-weight: bold;
-    background-image: url(../assets/banner/background_image.png);
 }
 
 .btn{
     background-color: #f0423c;
     padding: 12px 33px;
-    display: block;
-    margin: 0 auto;
     color: white;
     font-size: 16px;
     font-family: 'lato';
+}
+
+.btn-view-category{
+    display: block;
+    margin: 20px auto;
 }
 
 .section-title>p{
@@ -67,7 +67,11 @@ nav{
 
 .section-title>img{
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
+}
+
+.sub-title{
+    margin: 20px 0px 30px 0px;
 }
 
 /* fonts used */
@@ -93,6 +97,21 @@ nav{
 
 }
 
+.lato-reg-14{
+    font-size: 14px;
+    font-family: 'Lato';
+    color: #424242;
+
+}
+
+.lato-bold-14{
+    font-size: 14px;
+    font-family: 'Lato';
+    color: #424242;
+    font-weight: bold;
+    line-height: 2;
+}
+
 .exo-reg-16{
     font-size: 16px;
     font-family: 'Exo';
@@ -111,7 +130,7 @@ nav{
     font-weight: bold;
     font-size: 18px;
     color: #424242;
-
+    line-height: 2;
 }
 
 .exo-demibold-18{
@@ -124,7 +143,7 @@ nav{
 
 .gallery li{
     width: 31%;
-    padding: 30px;
+    padding: 20px;
     float: left;
     border: 1px solid grey;
     margin: 1%;
@@ -136,7 +155,7 @@ nav{
 
 .center-item>img{
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
 .second-section li{
@@ -145,10 +164,22 @@ nav{
 }
 
 .second-section{
-    height: 228px;
     position: relative;
-    color: white;
     background-image: url(../assets/content/background_image.png);
+}
+
+.second-section p{
+    color: white;
+}
+
+.second-section-overlay{
+    background-color:black; 
+    opacity: 0.8;
+    padding: 50px 0px;
+}
+
+.third-section{
+    padding: 50px 0px;
 }
 
 ul{
@@ -157,6 +188,19 @@ ul{
 
 .third-section-content-left{
     padding: 20px;
+}
+
+.third-section-content-left ul{
+    padding: 10px 0px;
+}
+
+.third-section-content-left li{
+    width: 90%;
+    padding: 10px 0px;
+}
+
+.third-section-content-left li>div{
+    width: 70%;
 }
 
 .third-section li>*{
@@ -182,6 +226,16 @@ ul{
     float: left;
 }
 
+.fourth-section{
+    padding: 50px 0px;
+    background-color: #f7f7f7;
+}
+
+.btn-browse-all-contest{
+    display: block;
+    margin: 0 auto;
+}
+
 .overlay{
    position: absolute; 
    top: 0; 
@@ -190,18 +244,25 @@ ul{
    width: 100%; 
    background-color: black; 
    opacity: 0.8;
+   visibility: hidden;
 }
 
 .overlay-btn{
     float: left;
     width: 50%;
-    color: white;
+    padding: 12px 0px;
 }
 
 .overlay-btn-wrapper{
     position: absolute; 
     bottom: 0px;
     width: 100%;
+    /* on-hover make visible */
+    visibility: hidden;
+}
+
+.example-gallery{
+    padding: 50px 0px;
 }
 
 .example-gallery li{
@@ -223,6 +284,7 @@ ul{
     padding: 10px 15px;
     font-size: 20px;
     font-weight: bold;
+    margin: 5px 0px;
 
 }
 
@@ -232,8 +294,13 @@ ul{
     background-color: #424242;
     padding: 10px 15px;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bold;    
+    margin: 5px;
 
+}
+
+.fifth-section{
+    padding: 50px 0px;
 }
 
 .testimonial-item{
@@ -241,15 +308,22 @@ ul{
     float: left;
     margin: 1%;
 }
+.feedback{
+    text-align: center;
+}
 
-.testimonial-item>div{
+.feedback::first-line{
+    text-align: justify;
+}
+
+.bg-div{
     background-color: #f7f7f7;
-    padding: 20px;
+    padding: 30px 30px;
 }
 
 .rating{
-    width: 50%;
-    margin: 0 auto;
+    width: 152px;
+    margin: 10px auto 0px auto;
 }
 
 .rating>*{
@@ -265,19 +339,22 @@ ul{
 
 .testimonial-by{
     text-align: center;
+    padding: 10px;
+}
+
+.testimonial-icon{
+    display: block;
+    margin: 0 auto;
 }
 
 .btn-wrapper{
     width: 104px;
-    margin: 0 auto;
-}
-
-.btn-wrapper p{
-    margin: 5px;
+    margin: 50px auto 0px auto;
 }
 
 .sixth-section{
     background-color: #f7f7f7;
+    padding: 30px 0px;
 }
 
 .sixth-section li{
@@ -290,6 +367,10 @@ ul{
     max-width: 100%;
 }
 
+.seventh-section{
+    padding: 50px 0px;
+}
+
 .coupon-section{
     float: left;
     width: 40%;
@@ -298,10 +379,11 @@ ul{
 .email-section{
     float: left;
     width: 60%;
+    padding: 15px 0px;
 }
 
 .email-section input{
-    padding: 19px 5px;
+    padding: 12px 5px;
     float: left;
     width: 70%;
 }
@@ -334,27 +416,34 @@ ul{
 footer .top-section{
     border-top: 2px solid #f0423c;
     background-color: #f7f7f7;
+    padding-bottom: 50px;
+    font-size: 14px;
 }
 
 .about-us{
-    width: 33%;
+    width: 30%;
     float: left;
+    padding: 5px;
 }
+
 .quick-links{
-    width: 16%;
+    width: 18%;
     float: left;
-    margin: 0px 0.5%;
+    margin: 0px 1%;
+    padding: 5px;
 }
 
 .my-account{
-    width: 16%;
+    width: 18%;
     float: left;
-    margin: 0px 0.5%;
+    margin: 0px 1%;
+    padding: 5px;
 }
 
 .newsletter{
-    width: 33%;
+    width: 30%;
     float: right;
+    padding: 5px;
 }
 
 .footer-social-icon-item{
@@ -365,8 +454,17 @@ footer .top-section{
     margin: 5px;
 }
 
+.footer-social-icons{
+    padding: 10px 0px;
+}
+
+footer{
+    color: #666666;
+}
+
 footer .logo{
     width: 100%;
+    padding: 0px;
 }
 
 .quick-links li, .my-account li{
@@ -397,4 +495,12 @@ footer .logo{
     font-family: 'Exo';
     background-color: #f0423c;
     margin: 4px 0px;
+}
+
+.about-us-content, .newsletter-content{
+    text-align: justify;
+}
+
+.example-gallery li:hover .overlay, .example-gallery li:hover .overlay-btn-wrapper{
+    visibility: visible;
 }

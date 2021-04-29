@@ -13,7 +13,11 @@
 /* upper-header styling */
 .social-icons{
     float: left;
-    padding: 10px 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.social-icons>div{
+    float: left;
 }
 
 .upper-header-right{
@@ -56,16 +60,17 @@
 
 .logo{
     float: left;
-    width: 21%;
+    width: 32%;
 }
 
 .logo img{
     max-width: 100%;
+    width: 30%;
 }
 
 .menu{
     float: right;
-    width: 64%;
+    width: 53%;
 }
 
 .nav-right{
@@ -73,7 +78,7 @@
     float: right;
 }
 
-.logo>*, nav>*{
+.logo>*{
     float: left;
 }
 
@@ -90,14 +95,14 @@
     float: right;
 }
 
-.banner{
-    height: 640px;
-
-}
 .banner-logo{
     display: block;
     margin: 30px auto;
 
+}
+
+.banner{
+    padding: 50px;
 }
 
 .banner-title{
@@ -113,6 +118,9 @@
     text-align: center;
 }
 
+.first-section{
+    padding: 50px 0px;
+}
 
 
 @media screen and (min-width:){
