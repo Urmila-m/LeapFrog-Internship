@@ -1,0 +1,121 @@
+/* commonly used class for column creation*/
+.clearfix::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.table-buffer{
+    display: table;
+    width: 100%;
+}
+
+/* upper-header styling */
+.social-icons{
+    float: left;
+    padding: 10px 0px;
+}
+
+.upper-header-right{
+    float: right;
+    height: 100%;
+    padding: 10px 0px;
+    width: 60%;
+}
+
+.container{
+    width: 67%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+.call{
+    width: 120px;
+    float: right;
+}
+
+.mail{
+    width: 163px;
+    float: right;
+}
+
+.bg-icon{
+    width: 20px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+}
+
+.call p, .mail p{
+    float: right;
+}
+
+/* header styling */
+
+.logo{
+    float: left;
+    width: 21%;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.menu{
+    float: right;
+    width: 64%;
+}
+
+.nav-right{
+    width: 15%;;
+    float: right;
+}
+
+.logo>*, nav>*{
+    float: left;
+}
+
+.menu-item{
+    float: right;
+}
+
+.nav-right-item{
+    float: right;
+    padding: 20px 0px;
+}
+
+.nav-right-item>*{
+    float: right;
+}
+
+.banner{
+    height: 640px;
+
+}
+.banner-logo{
+    display: block;
+    margin: 30px auto;
+
+}
+
+.banner-title{
+    text-align: center;
+}
+
+.btn-getting-started{
+    display: block;
+    margin: 30px auto;
+}
+
+.money-back{
+    text-align: center;
+}
+
+
+
+@media screen and (min-width:){
+    
+}
+

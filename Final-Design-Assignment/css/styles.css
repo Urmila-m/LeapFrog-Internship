@@ -1,0 +1,400 @@
+
+.upper-header{
+    background-color: #424242;
+    color: #7e7e7e;
+    height: 40px;
+    font-size: 14px;
+}
+
+/* header styling */
+.header{
+    width: 100%;
+    background-image: url(../assets/banner/background_image.png);
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+}
+
+.logo{
+    font-size: 24px;
+    font-family: 'Exo';
+    font-weight: bold;
+    padding: 26px 0px;
+}
+
+.menu, .nav-right{
+    font-size: 14px;
+    font-family: 'Lato';
+    padding: 10px 0px;
+}
+
+.menu-item{
+    padding: 20px 24px;
+}
+
+.nav-right-item{
+    padding: 20px 9px;
+}
+
+.banner-title{
+    font-size: 40px;
+    font-family: 'Exo';
+    font-weight: bold;
+}
+
+.banner{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    background-image: url(../assets/banner/background_image.png);
+}
+
+.btn{
+    background-color: #f0423c;
+    padding: 12px 33px;
+    display: block;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+    font-family: 'lato';
+}
+
+.section-title>p{
+    text-align: center;
+}
+
+.section-title>img{
+    display: block;
+    margin: 0 auto;
+}
+
+/* fonts used */
+.exo-bold-24{
+    font-size: 24px;
+    font-family: 'Exo';
+    font-weight: bold;
+    color: #424242;
+}
+
+.exo-demibold-28{
+    font-size: 28px;
+    font-family: 'Exo';
+    font-weight: 600;
+    color: #424242;
+
+}
+
+.lato-reg-16{
+    font-size: 16px;
+    font-family: 'Lato';
+    color: #424242;
+
+}
+
+.exo-reg-16{
+    font-size: 16px;
+    font-family: 'Exo';
+}
+
+.lato-bold-16{
+    font-size: 16px;
+    font-family: 'Lato';
+    font-weight: bold;
+    color: #424242;
+
+}
+
+.exo-bold-18{
+    font-family: 'Exo';
+    font-weight: bold;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+.exo-demibold-18{
+    font-size: 18px;
+    font-family: 'Exo';
+    font-weight: 600;
+    color: #424242;
+
+}
+
+.gallery li{
+    width: 31%;
+    padding: 30px;
+    float: left;
+    border: 1px solid grey;
+    margin: 1%;
+}
+
+.center-item>p{
+    text-align: center;
+}
+
+.center-item>img{
+    display: block;
+    margin: 0 auto;
+}
+
+.second-section li{
+    float: left;
+    width: 25%;
+}
+
+.second-section{
+    height: 228px;
+    position: relative;
+    color: white;
+    background-image: url(../assets/content/background_image.png);
+}
+
+ul{
+    list-style: none;
+}
+
+.third-section-content-left{
+    padding: 20px;
+}
+
+.third-section li>*{
+    float: left;
+}
+
+.third-section-img{
+    height: 100%;
+}
+
+.third-section-img img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.third-section-content>*{
+    float: left;
+    width: 50%;
+}
+
+.fourth-section-title .exo-demibold-28{
+    float: left;
+}
+
+.overlay{
+   position: absolute; 
+   top: 0; 
+   left: 0; 
+   height: 100%; 
+   width: 100%; 
+   background-color: black; 
+   opacity: 0.8;
+}
+
+.overlay-btn{
+    float: left;
+    width: 50%;
+    color: white;
+}
+
+.overlay-btn-wrapper{
+    position: absolute; 
+    bottom: 0px;
+    width: 100%;
+}
+
+.example-gallery li{
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+.example-gallery img{
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.right-button{
+    float: right;
+    color: white;
+    background-color: #f0423c;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.left-button{
+    float: right;
+    color: white;
+    background-color: #424242;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.testimonial-item{
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.testimonial-item>div{
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.rating{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.rating>*{
+    float: left;
+}
+.rating-star{
+    margin-left: 5px;
+}
+
+.rating-star img{
+    float: left;
+}
+
+.testimonial-by{
+    text-align: center;
+}
+
+.btn-wrapper{
+    width: 104px;
+    margin: 0 auto;
+}
+
+.btn-wrapper p{
+    margin: 5px;
+}
+
+.sixth-section{
+    background-color: #f7f7f7;
+}
+
+.sixth-section li{
+    float: left;
+    width: 20%;
+}
+
+.sixth-section img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.coupon-section{
+    float: left;
+    width: 40%;
+}
+
+.email-section{
+    float: left;
+    width: 60%;
+}
+
+.email-section input{
+    padding: 19px 5px;
+    float: left;
+    width: 70%;
+}
+
+.btn-email-me{
+    background-color: #f0423c;
+    padding: 12px 33px;
+    font-size: 16px;
+    font-family: 'lato';
+    color: white;
+    float: right;
+}
+
+.copyright-section{
+    height: 50px;
+    background-color: #434343;
+    color: #888888;
+}
+
+.copyright-section li{
+    float: right;
+    padding: 15px;
+}
+
+.copyright-section p{
+    float: left;
+    padding: 15px;
+}
+
+footer .top-section{
+    border-top: 2px solid #f0423c;
+    background-color: #f7f7f7;
+}
+
+.about-us{
+    width: 33%;
+    float: left;
+}
+.quick-links{
+    width: 16%;
+    float: left;
+    margin: 0px 0.5%;
+}
+
+.my-account{
+    width: 16%;
+    float: left;
+    margin: 0px 0.5%;
+}
+
+.newsletter{
+    width: 33%;
+    float: right;
+}
+
+.footer-social-icon-item{
+    width: 23px;
+    height: 23px;
+    float: left;
+    border: 1px solid #888888;
+    margin: 5px;
+}
+
+footer .logo{
+    width: 100%;
+}
+
+.quick-links li, .my-account li{
+    padding: 10px;
+    border-bottom: 1px solid #888888;
+}
+
+.btn-up{
+    color: white;
+    background-color: #f0423c;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+.newsletter input{
+    padding: 12px 5px;
+    width: 100%;
+    margin: 4px 0px;
+}
+
+.newsletter-btn{
+    width: 100%;
+    padding: 12px 0px;
+    color: white;
+    font-size: 16px;
+    font-family: 'Exo';
+    background-color: #f0423c;
+    margin: 4px 0px;
+}
