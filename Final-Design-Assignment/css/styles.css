@@ -17,7 +17,7 @@ header{
     font-size: 14px;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
-    padding: 12px 0px;
+    padding: 4% 0px;
 }
 
 .menu{
@@ -203,6 +203,7 @@ ul{
 
 .third-section-img img{
     max-width: 100%;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -306,8 +307,8 @@ ul{
 }
 
 .bg-div{
+    padding: 20px;
     background-color: #f7f7f7;
-    padding: 30px 30px;
 }
 
 .rating{
@@ -375,7 +376,7 @@ ul{
 .email-section input{
     padding: 10px 5px;
     float: left;
-    width: 70%;
+    width: 100%;
 }
 
 .btn-email-me{
@@ -384,7 +385,8 @@ ul{
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: white;
-    float: right;
+    float: left;
+    margin: 5px 0px;
 }
 
 .copyright-section{
@@ -516,16 +518,73 @@ footer .logo{
     .upper-header{
         height: 40px;
     }
+
+    .third-section-content-left{
+        width: 48%;
+        margin: 1%;
+        float: left;
+    }
+
+    .third-section-img{
+        width: 48%;
+        margin: 1%;
+        float: right;
+    }
 }
 
 @media screen and (min-width:481px) {
     .gallery-item{
         width: 48%;
     }
+
+    .btn-email-me{
+        float: right;
+        margin: 0px;
+    }
+
+    .testimonial-item{
+        width: 48%;
+        margin: 1%;
+    }
+
+    .quick-links{
+        width: 48%;
+        float: left;
+        margin: 0px 1%;
+        padding: 5px;
+    }
+
+    .my-account{
+        width: 48%;
+        float: left;
+        margin: 0px 1%;
+        padding: 10px;
+    }
+
+    .copyright-section li{
+        float: right;
+    }
+
+    .copyright-section p{
+        float: left;
+    }  
     
+    footer .logo span{
+        padding: 12px 0px;
+    }
+
+    .email-section input{
+        padding: 10px 5px;
+        float: left;
+        width: 70%;
+    }
 }
 
 @media screen and (min-width:769px){
+    .bg-div{
+        padding: 30px 30px;
+    }
+
     .logo{
         font-size: 20px;
         padding: 24px 0px;
@@ -626,7 +685,6 @@ footer .logo{
         margin: 1%;
     }
 
-    
     .btn-wrapper{
         width: 104px;
         margin: 50px auto 0px auto;
@@ -692,6 +750,7 @@ footer .logo{
     }
 
     .copyright-section p{
+        padding: 15px;
         float: left;
     }  
     
@@ -702,9 +761,5 @@ footer .logo{
 
     .copyright-section{
         height: 50px;
-    }
-
-    .copyright-section p{
-        padding: 15px;
     }
 }
