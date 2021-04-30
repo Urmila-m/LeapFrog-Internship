@@ -177,7 +177,7 @@ ul{
 }
 
 .third-section-content-left{
-    padding: 20px 0px;
+    padding: 0px 0px 20px 0px;
 }
 
 .third-section-content-left ul{
@@ -518,6 +518,36 @@ footer .logo{
     visibility: visible;
 }
 
+.right-arrow img{
+    visibility: hidden;
+}
+
+.right-arrow{
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 5px;
+    float: left;
+    background-image: url(../assets/footer/right_arrow_grey_icon.png);
+}
+
+button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
+    cursor: pointer;
+}
+
+.quick-links li:hover, .my-account li:hover {
+    color: #f0423c;
+    cursor: pointer;
+}
+
+.quick-links li:hover .right-arrow{
+    background-image: url(../assets/footer/right_arrow_red_icon.png);
+}
+
+.my-account li:hover .right-arrow{
+    background-image: url(../assets/footer/right_arrow_red_icon.png);
+}
+
+
 @media screen and (min-width:481px) {
     .gallery-item{
         width: 48%;
@@ -553,6 +583,10 @@ footer .logo{
         padding: 10px;
     }
 
+    .newsletter{
+        padding: 10px;
+    }
+
     .copyright-section li{
         float: right;
     }
@@ -570,7 +604,9 @@ footer .logo{
     .upper-header{
         height: 40px;
     }
+}
 
+@media screen and (min-width:580px) {
     .third-section-content-left{
         width: 48%;
         margin: 1%;
@@ -582,16 +618,17 @@ footer .logo{
         margin: 1%;
         float: right;
     }
-
-    .banner-title{
-        font-size: 28px;
-    } 
+    
 }
 
 @media screen and (min-width:769px) {
     .logo{
         font-size: 18px;
     }
+
+    .banner-title{
+        font-size: 28px;
+    } 
 
     .logo span{
         padding: 3% 0;
@@ -750,7 +787,7 @@ footer .logo{
     }
 
     .third-section-content-left{
-        padding: 20px 20px 20px 0px;
+        padding: 0px 20px 20px 0px;
     }
     
     .exo-reg-16{
