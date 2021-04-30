@@ -13,7 +13,7 @@ header{
 
 .logo{
     font-size: 20px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: bold;
     padding: 24px 0px;
 }
@@ -24,7 +24,7 @@ header{
 
 .menu, .nav-right{
     font-size: 14px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     padding: 10px 0px;
 }
 
@@ -38,13 +38,13 @@ header{
 
 .banner-title{
     font-size: 40px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
 
 .banner{
     font-size: 16px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
 
@@ -53,7 +53,7 @@ header{
     padding: 12px 33px;
     color: white;
     font-size: 16px;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
 }
 
 .btn-view-category{
@@ -77,14 +77,14 @@ header{
 /* fonts used */
 .exo-bold-24{
     font-size: 24px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: bold;
     color: #424242;
 }
 
 .exo-demibold-28{
     font-size: 28px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: 600;
     color: #424242;
 
@@ -92,21 +92,21 @@ header{
 
 .lato-reg-16{
     font-size: 16px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #424242;
 
 }
 
 .lato-reg-14{
     font-size: 14px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #424242;
 
 }
 
 .lato-bold-14{
     font-size: 14px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     color: #424242;
     font-weight: bold;
     line-height: 2;
@@ -114,19 +114,19 @@ header{
 
 .exo-reg-16{
     font-size: 16px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
 }
 
 .lato-bold-16{
     font-size: 16px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #424242;
 
 }
 
 .exo-bold-18{
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: bold;
     font-size: 18px;
     color: #424242;
@@ -135,7 +135,7 @@ header{
 
 .exo-demibold-18{
     font-size: 18px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     font-weight: 600;
     color: #424242;
 
@@ -392,7 +392,7 @@ ul{
     background-color: #f0423c;
     padding: 12px 33px;
     font-size: 16px;
-    font-family: 'lato';
+    font-family: 'Lato', sans-serif;
     color: white;
     float: right;
 }
@@ -492,7 +492,7 @@ footer .logo{
     padding: 12px 0px;
     color: white;
     font-size: 16px;
-    font-family: 'Exo';
+    font-family: 'Exo', sans-serif;
     background-color: #f0423c;
     margin: 4px 0px;
 }
