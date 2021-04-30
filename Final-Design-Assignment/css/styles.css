@@ -37,7 +37,7 @@ header{
 }
 
 .btn{
-    padding: 10px 20px;
+    padding: 8px 18px;
     font-size: 12px;
     background-color: #f0423c;
     color: white;
@@ -241,7 +241,7 @@ ul{
 .overlay-btn{
     float: left;
     width: 50%;
-    padding: 12px 0px;
+    padding: 8px 0px;
 }
 
 .overlay-btn-wrapper{
@@ -374,14 +374,13 @@ ul{
 }
 
 .email-section input{
-    padding: 10px 5px;
-    float: left;
+    padding: 8px 5px;
     width: 100%;
 }
 
 .btn-email-me{
     background-color: #f0423c;
-    padding: 10px 20px;
+    padding: 8px 18px;
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: white;
@@ -488,13 +487,13 @@ footer .logo{
 
 .newsletter input{
     margin: 4px 0px;
-    padding: 10px 5px;
+    padding: 8px 5px;
     width: 100%;
 }
 
 .newsletter-btn{
     width: 100%;
-    padding: 10px 20px;
+    padding: 8px 18px;
     color: white;
     font-size: 12px;
     font-family: 'Exo', sans-serif;
@@ -514,32 +513,20 @@ footer .logo{
     visibility: visible;
 }
 
-@media screen and (min-width:515px){
-    .upper-header{
-        height: 40px;
-    }
-
-    .third-section-content-left{
-        width: 48%;
-        margin: 1%;
-        float: left;
-    }
-
-    .third-section-img{
-        width: 48%;
-        margin: 1%;
-        float: right;
-    }
-}
-
 @media screen and (min-width:481px) {
     .gallery-item{
         width: 48%;
     }
 
     .btn-email-me{
-        float: right;
+        float: left;
         margin: 0px;
+    }
+    
+    .email-section input{
+        float: left;
+        width: 60%;
+        margin: 0px 1%;
     }
 
     .testimonial-item{
@@ -551,7 +538,7 @@ footer .logo{
         width: 48%;
         float: left;
         margin: 0px 1%;
-        padding: 5px;
+        padding: 10px;
     }
 
     .my-account{
@@ -572,15 +559,125 @@ footer .logo{
     footer .logo span{
         padding: 12px 0px;
     }
+}
 
-    .email-section input{
-        padding: 10px 5px;
+@media screen and (min-width:515px){
+    .upper-header{
+        height: 40px;
+    }
+
+    .third-section-content-left{
+        width: 48%;
+        margin: 1%;
         float: left;
-        width: 70%;
+    }
+
+    .third-section-img{
+        width: 48%;
+        margin: 1%;
+        float: right;
+    }
+
+    .banner-title{
+        font-size: 28px;
+    } 
+}
+
+@media screen and (min-width:769px) {
+    .logo{
+        font-size: 18px;
+    }
+
+    .logo span{
+        padding: 3% 0;
+    }
+
+    .nav-right-item{
+        font-size: 14px;
+    }
+
+    .btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .banner{
+        font-size: 14px;
+    }
+
+    .exo-demibold-28{
+        font-size: 22px;
+    }
+
+    .lato-reg-16{
+        font-size: 14px;
+    }
+
+    .lato-reg-14{
+        font-size: 12px;
+    }
+
+    .exo-bold-18{
+        font-size: 16px;
+    }
+
+    .lato-bold-16{
+        font-size: 14px;
+    }
+
+    .gallery-item{
+        width: 31%;
+        padding: 2%;
+    }
+
+    .second-section li{
+        width: 25%;
+    }
+
+    .example-gallery li{
+        width: 33.33%;
+    }
+
+    .coupon-section{
+        float: left;
+        width: 40%;
+    }
+
+    .email-section{
+        float: right;
+        width: 60%;
+    }
+
+    .btn-email-me, .newsletter-btn{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .btn-up, .left-button, .right-button{
+        padding: 8px 12px;
+        font-size: 16px;
+    }
+
+    .btn-wrapper{
+        width: 80px;
+    }
+
+    .newsletter input,  .email-section input{
+        padding: 10px 5px;
     }
 }
 
-@media screen and (min-width:769px){
+@media screen and (min-width:1280px){
+    .menu{
+        display: "";
+    }
+
+    .menu, .nav-right{
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px 0px;
+    }
+
     .bg-div{
         padding: 30px 30px;
     }
@@ -593,12 +690,6 @@ footer .logo{
     .logo p{
         padding: 15px 0px;
     }  
-
-    .menu, .nav-right{
-        font-size: 14px;
-        font-family: 'Lato', sans-serif;
-        padding: 10px 0px;
-    }
 
     .menu-item{
         padding: 20px 12px;
@@ -701,15 +792,6 @@ footer .logo{
     .btn-email-me{
         padding: 12px 33px;
         font-size: 16px;
-    }
-
-    .coupon-section{
-        width: 40%;
-    }
-
-    .email-section{
-        width: 60%;
-        padding: 15px 0px;
     }
 
     .about-us{

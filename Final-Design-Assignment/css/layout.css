@@ -27,41 +27,72 @@
     width: 60%;
 }
 
-@media screen and (min-width: 481px) {
+.logo span{
+    padding: 5% 0px;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav-right{
+    width: 40%;
+    float: right;
+    padding: 5% 0px;
+}
+
+.logo>*{
+    float: left;
+}
+
+.hamburger-menu{
+    height: 30px;
+    width: 30px;
+    float: left;
+    padding: 5% 0px;
+}
+
+.hamburger-menu img{
+    width: 100%;
+    max-width: 100%;
+}
+
+.nav-right-item{
+    float: right;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Exo', sans-serif;
+}
+
+.nav-right-item>*{
+    float: right;
+}
+
+.banner-logo{
+    display: block;
+    margin: 30px auto;
 
 }
 
-@media screen and (min-width: 769px) {
-    .container{
-        width: 67%;
-        padding: 0px 30px;
-    }
-    
-    .nav-right{
-        width: 15%;
-        float: right;
-    }
+.banner{
+    padding: 50px 0px;
+}
 
-    .nav-right-item{
-        float: right;
-        padding: 20px 0px;
-    }
+.banner-title{
+    text-align: center;
+}
 
-    .logo{
-        width: 32%;
-    }
+.btn-getting-started{
+    display: block;
+    margin: 30px auto;
+}
 
-    .nav-right-item p{
-        font-size: 14px;
-    }
-    
-    .menu-item{
-        float: right;
-    }
+.money-back{
+    text-align: center;
+}
 
-    .banner{
-        padding: 50px 0px;
-    }
+.first-section{
+    padding: 50px 0px;
 }
 
 .container{
@@ -104,84 +135,56 @@
     /* width: 30%; */
 }
 
-.logo span{
-    padding: 5% 0px;
-}
-
-.menu{
-    float: right;
-    width: 53%;
-}
-
-nav{
-    width: 100%;
-}
-
-.nav-right{
-    width: 40%;
-    float: right;
-    padding: 5% 0px;
-}
-
-.logo>*{
-    float: left;
-}
-
-.hamburger-menu{
-    height: 30px;
-    width: 30px;
-    float: left;
-    padding: 5% 0px;
-}
-
-.hamburger-menu img{
-    width: 100%;
-    max-width: 100%;
-}
-
-.nav-right-item{
-    float: right;
-    padding: 5px;
-}
-
-.nav-right-item p{
-    font-size: 12px;
-    font-family: 'Exo', sans-serif;
-}
-
-.nav-right-item>*{
-    float: right;
-}
-
-.banner-logo{
-    display: block;
-    margin: 30px auto;
+@media screen and (min-width: 769px){
+    .container{
+        width: 80%;
+        padding: 0px 30px;
+    }
 
 }
 
-.banner{
-    padding: 50px 0px;
-}
+@media screen and (min-width: 1280px) {
+    .container{
+        width: 67%;
+        padding: 0px 30px;
+        max-width: 1290px;
+    }
 
-.banner-title{
-    text-align: center;
-}
+    .hamburger-menu{
+        display: none;
+    }
 
-.btn-getting-started{
-    display: block;
-    margin: 30px auto;
-}
+    .menu{
+        float: right;
+        width: 53%;
+    }
 
-.money-back{
-    text-align: center;
-}
+    .nav-right-item{
+        float: right;
+        padding: 20px 0px;
+    }
 
-.first-section{
-    padding: 50px 0px;
-}
+    .nav-right-item p{
+        font-size: 14px;
+    }
 
-
-@media screen and (min-width:){
+    .banner{
+        padding: 50px 0px;
+    }
     
+    .menu-item{
+        float: right;
+    }
+     
+    .logo{
+        width: 25%;
+    }
+
+    .nav-right{
+        width: 22%;
+        float: right;
+    }
+
 }
+
 
