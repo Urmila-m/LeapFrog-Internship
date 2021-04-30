@@ -27,7 +27,7 @@
     width: 60%;
 }
 
-.logo span{
+.logo p{
     padding: 5% 0px;
 }
 
@@ -50,6 +50,10 @@ nav{
     width: 30px;
     float: left;
     padding: 5% 0px;
+}
+
+.highlight-text{
+    color: #f0423c;
 }
 
 .hamburger-menu img{

@@ -18,9 +18,11 @@ header{
     font-family: 'Exo', sans-serif;
     font-weight: bold;
     padding: 4% 0px;
+    color: #424242;
 }
 
 .menu{
+    color: #424242;
     display: none;
 }
 
@@ -28,12 +30,14 @@ header{
     font-size: 20px;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
+    color: #424242;
 }
 
 .banner{
     font-size: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+    color: #424242;
 }
 
 .btn{
@@ -633,7 +637,7 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
         font-size: 28px;
     } 
 
-    .logo span{
+    .logo p{
         padding: 3% 0;
     }
 
@@ -728,7 +732,7 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
     .menu, .nav-right{
         font-size: 14px;
         font-family: 'Lato', sans-serif;
-        padding: 10px 0px;
+        padding: 18px 0px;
     }
 
     .bg-div{
@@ -741,7 +745,7 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
     }  
 
     .logo p{
-        padding: 15px 0px;
+        padding: 10px 0px;
     }  
 
     .menu-item{
