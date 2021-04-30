@@ -239,6 +239,11 @@ ul{
 }
 
 .overlay-btn{
+    padding: 8px 18px;
+    font-size: 12px;
+    background-color: #f0423c;
+    color: white;
+    font-family: 'Lato', sans-serif;
     float: left;
     width: 50%;
     padding: 8px 0px;
@@ -613,6 +618,10 @@ footer .logo{
         font-size: 14px;
     }
 
+    .exo-reg-16{
+        font-size: 14px;
+    }
+
     .lato-reg-14{
         font-size: 12px;
     }
@@ -670,6 +679,10 @@ footer .logo{
 @media screen and (min-width:1280px){
     .menu{
         display: "";
+    }
+
+    .email-section input, .newsletter input{
+        padding: 12px 5px;
     }
 
     .menu, .nav-right{
@@ -734,11 +747,6 @@ footer .logo{
 
     .second-section li{
         width: 25%;
-    }
-
-    .third-section-content>*{
-        float: left;
-        width: 50%;
     }
 
     .third-section-content-left{

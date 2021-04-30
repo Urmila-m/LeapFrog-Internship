@@ -145,8 +145,6 @@ nav{
 
 @media screen and (min-width: 1280px) {
     .container{
-        width: 67%;
-        padding: 0px 30px;
         max-width: 1290px;
     }
 
@@ -161,7 +159,7 @@ nav{
 
     .nav-right-item{
         float: right;
-        padding: 20px 0px;
+        padding: 20px 5px;
     }
 
     .nav-right-item p{
