@@ -64,6 +64,11 @@ nav{
     font-family: 'Exo', sans-serif;
 }
 
+.nav-right-item:hover{
+    cursor: pointer;
+    color: #f0423c;
+}
+
 .nav-right-item>*{
     float: right;
 }
@@ -275,7 +280,7 @@ nav{
 
     .menu{
         float: right;
-        width: 53%;
+        width: 59%;
     }
 
     .nav-right-item{
@@ -300,7 +305,7 @@ nav{
     }
 
     .nav-right{
-        width: 22%;
+        width: 16%;
         float: right;
     }
 

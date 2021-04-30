@@ -534,8 +534,11 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
     cursor: pointer;
 }
 
-.quick-links li:hover, .my-account li:hover {
+.quick-links li:hover .quick-link-item, .my-account li:hover .my-account-item{
     color: #f0423c;
+}
+
+.my-account li:hover, .quick-links li:hover {
     cursor: pointer;
 }
 
@@ -715,7 +718,7 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
 
 @media screen and (min-width:1280px){
     .menu{
-        display: "";
+        display: block;
     }
 
     .email-section input, .newsletter input{
@@ -742,7 +745,12 @@ button:hover, .btn-up:hover, .left-button:hover, .right-button:hover{
     }  
 
     .menu-item{
-        padding: 20px 12px;
+        padding: 20px 10px;
+    }
+
+    .menu-item:hover{
+        color: #f0423c;
+        cursor: pointer;
     }
 
     .banner-title{
