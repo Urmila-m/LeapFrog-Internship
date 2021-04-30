@@ -2,57 +2,45 @@
 .upper-header{
     background-color: #424242;
     color: #7e7e7e;
-    height: 40px;
+    height: 50px;
     font-size: 14px;
 }
 
 /* header styling */
 header{
+    background-position: top;
+    background-repeat: no-repeat;
     background-image: url(../assets/banner/background_image.png);
 }
 
 .logo{
-    font-size: 20px;
+    font-size: 14px;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
-    padding: 24px 0px;
+    padding: 12px 0px;
 }
 
-.logo p{
-    padding: 15px 0px;
-}
-
-.menu, .nav-right{
-    font-size: 14px;
-    font-family: 'Lato', sans-serif;
-    padding: 10px 0px;
-}
-
-.menu-item{
-    padding: 20px 12px;
-}
-
-.nav-right-item{
-    padding: 20px 9px;
+.menu{
+    display: none;
 }
 
 .banner-title{
-    font-size: 40px;
+    font-size: 20px;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
 }
 
 .banner{
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
 }
 
 .btn{
+    padding: 10px 20px;
+    font-size: 12px;
     background-color: #f0423c;
-    padding: 12px 33px;
     color: white;
-    font-size: 16px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -83,29 +71,28 @@ header{
 }
 
 .exo-demibold-28{
-    font-size: 28px;
+    font-size: 18px;
     font-family: 'Exo', sans-serif;
     font-weight: 600;
     color: #424242;
-
 }
 
 .lato-reg-16{
-    font-size: 16px;
+    font-size: 11px;
     font-family: 'Lato', sans-serif;
     color: #424242;
 
 }
 
 .lato-reg-14{
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Lato', sans-serif;
     color: #424242;
 
 }
 
 .lato-bold-14{
-    font-size: 14px;
+    font-size: 10px;
     font-family: 'Lato', sans-serif;
     color: #424242;
     font-weight: bold;
@@ -113,12 +100,12 @@ header{
 }
 
 .exo-reg-16{
-    font-size: 16px;
+    font-size: 11px;
     font-family: 'Exo', sans-serif;
 }
 
 .lato-bold-16{
-    font-size: 16px;
+    font-size: 11px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     color: #424242;
@@ -126,23 +113,23 @@ header{
 }
 
 .exo-bold-18{
+    font-size: 14px;
     font-family: 'Exo', sans-serif;
     font-weight: bold;
-    font-size: 18px;
     color: #424242;
     line-height: 2;
 }
 
 .exo-demibold-18{
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'Exo', sans-serif;
     font-weight: 600;
     color: #424242;
 
 }
 
-.gallery li{
-    width: 31%;
+.gallery-item{
+    width: 98%;
     padding: 20px;
     float: left;
     border: 1px solid grey;
@@ -160,11 +147,14 @@ header{
 
 .second-section li{
     float: left;
-    width: 25%;
+    width: 50%;
+    padding: 20px 0px;
 }
 
 .second-section{
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
     background-image: url(../assets/content/background_image.png);
 }
 
@@ -187,7 +177,7 @@ ul{
 }
 
 .third-section-content-left{
-    padding: 20px;
+    padding: 20px 0px;
 }
 
 .third-section-content-left ul{
@@ -219,7 +209,7 @@ ul{
 
 .third-section-content>*{
     float: left;
-    width: 50%;
+    width: 100%;
 }
 
 .fourth-section-title .exo-demibold-28{
@@ -266,8 +256,8 @@ ul{
 }
 
 .example-gallery li{
+    width: 50%;
     position: relative;
-    width: 25%;
     float: left;
 }
 
@@ -278,25 +268,23 @@ ul{
 }
 
 .right-button{
+    padding: 5px 10px;
+    font-size: 12px;
     float: right;
     color: white;
     background-color: #f0423c;
-    padding: 10px 15px;
-    font-size: 20px;
     font-weight: bold;
-    margin: 5px 0px;
-
+    margin: 0px 3px;
 }
 
 .left-button{
+    padding: 5px 10px;
+    font-size: 12px;
     float: right;
     color: white;
     background-color: #424242;
-    padding: 10px 15px;
-    font-size: 20px;
     font-weight: bold;    
-    margin: 5px;
-
+    margin: 0px 3px;
 }
 
 .fifth-section{
@@ -304,10 +292,11 @@ ul{
 }
 
 .testimonial-item{
-    width: 48%;
+    width: 100%;
     float: left;
-    margin: 1%;
+    margin-bottom: 20px;
 }
+
 .feedback{
     text-align: center;
 }
@@ -348,18 +337,18 @@ ul{
 }
 
 .btn-wrapper{
-    width: 104px;
-    margin: 50px auto 0px auto;
+    width: 66px;
+    margin: 0px auto;
 }
 
 .sixth-section{
+    padding: 20px 0px;
     background-color: #f7f7f7;
-    padding: 30px 0px;
 }
 
 .sixth-section li{
+    width: 33%;
     float: left;
-    width: 20%;
 }
 
 .sixth-section img{
@@ -372,45 +361,43 @@ ul{
 }
 
 .coupon-section{
+    width: 100%;
     float: left;
-    width: 40%;
 }
 
 .email-section{
-    float: left;
-    width: 60%;
+    width: 100%;
     padding: 15px 0px;
+    float: left;
+
 }
 
 .email-section input{
-    padding: 12px 5px;
+    padding: 10px 5px;
     float: left;
     width: 70%;
 }
 
 .btn-email-me{
     background-color: #f0423c;
-    padding: 12px 33px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 12px;
     font-family: 'Lato', sans-serif;
     color: white;
     float: right;
 }
 
 .copyright-section{
-    height: 50px;
     background-color: #434343;
     color: #888888;
 }
 
 .copyright-section li{
-    float: right;
-    padding: 15px;
+    padding: 10px;
 }
 
 .copyright-section p{
-    float: left;
-    padding: 15px;
+    padding: 10px;
 }
 
 footer .top-section{
@@ -421,37 +408,45 @@ footer .top-section{
 }
 
 .about-us{
-    width: 30%;
+    width: 100%;
     float: left;
     padding: 5px;
 }
 
 .quick-links{
-    width: 18%;
+    width: 100%;
     float: left;
     margin: 0px 1%;
     padding: 5px;
 }
 
 .my-account{
-    width: 18%;
+    width: 100%;
     float: left;
     margin: 0px 1%;
     padding: 5px;
 }
 
+.my-account ul{
+    padding: 20px 0px;
+}
+
 .newsletter{
-    width: 30%;
+    width: 100%;
     float: right;
     padding: 5px;
 }
 
+.newsletter ul{
+    padding: 20px 0px;
+}
+
 .footer-social-icon-item{
-    width: 23px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
     float: left;
     border: 1px solid #888888;
-    margin: 5px;
 }
 
 .footer-social-icons{
@@ -467,31 +462,39 @@ footer .logo{
     padding: 0px;
 }
 
+.quick-links ul{
+    padding: 20px 0px;
+}
+
 .quick-links li, .my-account li{
     padding: 10px;
     border-bottom: 1px solid #888888;
 }
 
 .btn-up{
+    padding: 5px 10px;
+    font-size: 12px;
     color: white;
     background-color: #f0423c;
-    padding: 10px 15px;
-    font-size: 20px;
     font-weight: bold;
     float: right;
 }
 
+.newsletter img{
+    margin-top: 20px 0px;
+}
+
 .newsletter input{
-    padding: 12px 5px;
-    width: 100%;
     margin: 4px 0px;
+    padding: 10px 5px;
+    width: 100%;
 }
 
 .newsletter-btn{
     width: 100%;
-    padding: 12px 0px;
+    padding: 10px 20px;
     color: white;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Exo', sans-serif;
     background-color: #f0423c;
     margin: 4px 0px;
@@ -501,6 +504,207 @@ footer .logo{
     text-align: justify;
 }
 
+.newsletter-content{
+    margin-top: 20px;
+}
+
 .example-gallery li:hover .overlay, .example-gallery li:hover .overlay-btn-wrapper{
     visibility: visible;
+}
+
+@media screen and (min-width:515px){
+    .upper-header{
+        height: 40px;
+    }
+}
+
+@media screen and (min-width:481px) {
+    .gallery-item{
+        width: 48%;
+    }
+    
+}
+
+@media screen and (min-width:769px){
+    .logo{
+        font-size: 20px;
+        padding: 24px 0px;
+    }  
+
+    .logo p{
+        padding: 15px 0px;
+    }  
+
+    .menu, .nav-right{
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        padding: 10px 0px;
+    }
+
+    .menu-item{
+        padding: 20px 12px;
+    }
+
+    .banner-title{
+        font-size: 40px;
+    } 
+
+    .banner{
+        font-size: 16px;
+    }
+
+    .btn{
+        padding: 12px 33px;
+        font-size: 16px;
+    }
+
+    .exo-demibold-28{
+        font-size: 28px;
+    }
+
+    .gallery-item{
+        width: 31%;
+    }
+
+    .exo-demibold-18{
+        font-size: 18px;
+    }
+
+    .exo-bold-18{
+        font-size: 18px;
+    }
+
+    .lato-reg-16{
+        font-size: 16px;
+    }
+    
+    .lato-bold-16{
+        font-size: 16px;
+    }
+
+    .second-section li{
+        width: 25%;
+    }
+
+    .third-section-content>*{
+        float: left;
+        width: 50%;
+    }
+
+    .third-section-content-left{
+        padding: 20px 20px 20px 0px;
+    }
+    
+    .exo-reg-16{
+        font-size: 16px;
+    }
+
+    .lato-bold-14{
+        font-size: 14px;
+    }
+
+    .lato-reg-14{
+        font-size: 14px;
+    }
+
+    .left-button{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .right-button{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .example-gallery li{
+        width: 25%;
+    }
+
+    .testimonial-item{
+        width: 48%;
+        margin: 1%;
+    }
+
+    
+    .btn-wrapper{
+        width: 104px;
+        margin: 50px auto 0px auto;
+    }
+
+    .sixth-section{
+        padding: 30px 0px;
+    }
+
+    .sixth-section li{
+        width: 20%;
+    }
+
+    .btn-email-me{
+        padding: 12px 33px;
+        font-size: 16px;
+    }
+
+    .coupon-section{
+        width: 40%;
+    }
+
+    .email-section{
+        width: 60%;
+        padding: 15px 0px;
+    }
+
+    .about-us{
+        width: 30%;
+    }
+    
+    .quick-links{
+        width: 18%;
+    }
+
+    .my-account{
+        width: 18%;
+    }
+
+    .newsletter{
+        width: 30%;
+    }
+
+    .btn-up{
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+
+    .footer-social-icon-item{
+        width: 23px;
+        height: 23px;
+        margin: 5px;
+    }
+
+    .newsletter input{
+        padding: 12px 5px;
+    }
+
+    .newsletter-btn{
+        padding: 12px 0px;
+        font-size: 16px;
+        margin: 4px 0px;
+    }
+
+    .copyright-section p{
+        float: left;
+    }  
+    
+    .copyright-section li{
+        float: right;
+        padding: 15px;
+    }
+
+    .copyright-section{
+        height: 50px;
+    }
+
+    .copyright-section p{
+        padding: 15px;
+    }
 }
