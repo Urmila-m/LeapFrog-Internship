@@ -4,7 +4,6 @@ function Slider(){
     this.sliderIndex = 0;
     this.numOfImages = this.carouselWrapper.childElementCount;
     this.carouselItemWidth = document.getElementsByClassName('carousel-item')[0].width;
-    console.log(this.carouselItemWidth);
     this.carouselContainer.style.width = this.carouselItemWidth;
 
     // indicator wrapper creation and styling
