@@ -2,12 +2,12 @@ function Ant(x, y, canvas){
     const self = this;
     this.x = x;
     this.y = y;
-    this.width = 50;
-    this.height = 50;
+    this.width = 40;
+    this.height = 40;
 
-    // speed is initialized randomly between 30 to 40
-    this.xSpeed = Math.random()*10 + 30;
-    this.ySpeed = Math.random()*10 + 30;
+    // speed is initialized randomly between 80 and 100
+    this.xSpeed = Math.random()*80+ 20;
+    this.ySpeed = Math.random()*80+ 20;
 
     this.myCanvas = canvas;
     this.img = document.createElement('img');
@@ -94,7 +94,7 @@ Ant.prototype.checkCollision = function(antList){
 }
 
 var canvas = document.getElementById('canvas');
-var NO_OF_ANTS = 5;
+var NO_OF_ANTS = 25;
 var antList = [];
 for(var i=0; i<NO_OF_ANTS; i++){
     x = Math.random()*450;

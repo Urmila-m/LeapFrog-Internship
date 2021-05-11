@@ -1,24 +1,32 @@
-function Ball(x, y, color, canvas){
+function Ball(x, y, color, radius, canvas){
     const self = this;
     this.x = x;
     this.y = y;
-    this.width = 50;
-    this.height = 50;
+    this.width = radius;
+    this.height = radius;
 
-    // speed is initialized randomly between 30 to 40
-    this.xSpeed = Math.random()*10 + 30;
-    this.ySpeed = Math.random()*10 + 30;
+    // speed is initialized randomly between 70 to 100
+    this.xSpeed = Math.random()*100 + 30;
+    this.ySpeed = Math.random()*70 + 30;
 
     this.myCanvas = canvas;
     this.img = document.createElement('img');
     this.img.style.position = 'absolute';
     this.img.style.top = y + 'px';
     this.img.style.left = x + 'px';
+    this.img.style.width = this.width + 'px';
+    this.img.style.height = this.height + 'px';
     if(color == 'g'){
         this.img.src = "images/green.png";
     }
     else if(color == 'r'){
         this.img.src = 'images/red.png';
+    }
+    else if(color == 'y'){
+        this.img.src = "images/yellow.png";
+    }
+    else if(color == 'o'){
+        this.img.src = "images/orange.png";
     }
     else{
         this.img.src = 'images/blue.png';
@@ -88,13 +96,14 @@ Ball.prototype.checkCollision = function(ballList){
 }
 
 var canvas = document.getElementById('canvas');
-var NO_OF_BALLS = 5;
-var colors = ['r', 'g', 'b'];
+var NO_OF_BALLS = 20;
+var colors = ['r', 'g', 'b', 'o', 'y'];
 var ballList = [];
 for(var i=0; i<NO_OF_BALLS; i++){
-    x = Math.random()*450;
-    y = Math.random()*450;
-    ballList.push(new Ball(x, y, colors[i%colors.length], canvas));
+    radius = Math.random()*10+20;
+    x = Math.random()*(500-radius);
+    y = Math.random()*(500-radius);
+    ballList.push(new Ball(x, y, colors[i%colors.length], radius, canvas));
 }
 
 setInterval(function(){
