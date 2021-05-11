@@ -63,11 +63,25 @@ Ball.prototype.checkCollision = function(ballList){
                 this.y < element.y + element.height &&
                 this.y + this.height > element.y) {
 
-                    // collision detected!
-                    this.xSpeed = -this.xSpeed;
-                    this.ySpeed = -this.ySpeed;
-                    element.xSpeed = -element.xSpeed;
-                    element.ySpeed = -element.ySpeed;
+                    // collision detected! still overlaps but oscillatory behaviour gone.
+                    left = this.x > element.x ? element: this;
+                    right = this.x > element.x ? this : element;
+                    bottom = this.y > element.y ? this: element;
+                    top = this.y > element.y ? element: this;
+
+                    if(!(left.xSpeed < 0 && right.xSpeed > 0)){
+                        left.xSpeed = -left.xSpeed;
+                        right.xSpeed = -right.xSpeed;
+                    }
+
+                    if(!(top.ySpeed<0 && bottom.ySpeed>0)){
+                        top.ySpeed = -top.ySpeed;
+                        bottom.ySpeed = -bottom.ySpeed;
+                    }
+                    // this.xSpeed = -this.xSpeed;
+                    // this.ySpeed = -this.ySpeed;
+                    // element.xSpeed = -element.xSpeed;
+                    // element.ySpeed = -element.ySpeed;
             }
         }
     }
