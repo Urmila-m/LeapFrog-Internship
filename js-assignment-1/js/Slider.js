@@ -51,6 +51,26 @@ function Slider(){
     // appending the arrow img with action button
     this.actionLeft.appendChild(this.leftArrow);
     this.carouselContainer.appendChild(this.actionLeft);
+    
+    // adding hover effect to arrow elements
+    this.actionLeft.onmouseover = function(e){
+    // TODO how to handle better? 
+        if(e.target.tagName == "DIV"){
+            e.target.style.backgroundColor = "blue";
+        }
+        else{
+            e.target.parentNode.style.backgroundColor = "blue";
+        }
+    }
+
+    this.actionLeft.onmouseout = function(e){
+        if(e.target.tagName == "DIV"){
+            e.target.style.backgroundColor = 'white';
+        }
+        else{
+            e.target.parentNode.style.backgroundColor = "white";
+        }
+    }
 
     // right action button creation and styling
     this.actionRight = document.createElement('div');
@@ -75,6 +95,26 @@ function Slider(){
     // appending the arrow img with action button 
     this.actionRight.appendChild(this.rightArrow);
     this.carouselContainer.appendChild(this.actionRight);
+    
+    // adding hover effect to arrow elements
+    this.actionRight.addEventListener('mouseover', function(e){
+         // TODO how to handle better? 
+        if(e.target.tagName == "DIV"){
+                e.target.style.backgroundColor = "blue";
+        }
+        else{
+            e.target.parentNode.style.backgroundColor = "blue";
+        }
+    });
+
+    this.actionRight.addEventListener('mouseout', function(e){
+        if(e.target.tagName == "DIV"){
+            e.target.style.backgroundColor = 'white';
+        }
+        else{
+            e.target.parentNode.style.backgroundColor = "white";
+        }
+    });
 
     this.actionLeft.addEventListener('click', () =>{
         this.indicators[this.sliderIndex].src = "images/indicator_passive.png";
@@ -97,6 +137,19 @@ function Slider(){
     });
 
     this.indicators.forEach((element, index, array) => {
+        // add hover effect on indicators
+        element.addEventListener('mouseover', ()=>{
+            if(index != this.sliderIndex){
+                element.src = "images/indicator_active.png";
+            }
+        });
+
+        element.addEventListener('mouseout', () => {
+            if(index != this.sliderIndex){
+                element.src = "images/indicator_passive.png";
+            }
+        })
+
         element.addEventListener('click', ()=>{
             if(this.sliderIndex!=index){
                 array[this.sliderIndex].src = "images/indicator_passive.png";
