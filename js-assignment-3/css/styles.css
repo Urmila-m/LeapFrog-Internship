@@ -1,0 +1,39 @@
+.btn-start-game{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.canvas-container{
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.canvas{
+    width: 500px;
+    margin: 0 10px;
+    height: 600px;
+    background-color: grey;
+    display: flex;
+}
+
+.lane{
+    width: 33%;
+    height: 100%;
+    border-right: black 2px dotted;
+    position: relative;
+    overflow: hidden;
+}
+
+.lane:last-of-type{
+    border-right: none;
+}
+
+.canvas-container p:last-of-type{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
