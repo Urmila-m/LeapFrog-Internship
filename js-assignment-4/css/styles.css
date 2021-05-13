@@ -21,6 +21,10 @@
     transform: translate(-50%, -50%);
 }
 
+#instruction>p{
+    text-align: center;
+}
+
 #canvas{
     height: 404px;
     position: relative;
