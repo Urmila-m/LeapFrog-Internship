@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Flappy Bird</title>
+ 
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="canvas">
+        </div>
+        <div id="info-display">
+        </div>
+        <div id="base">
+        </div>
+    </div>
+    <div id="game-info" class="clearfix">
+        <div id="score-board">
+            <p>Score: <b><span id="score">0</span></b></p>
+            <p>High Score: <b><span id="high-score"></span></b></p>
+        </div> 
+        <button id="reset">Reset</button>
+    </div>
+       
+    <script src="js/constants.js"></script>
+    <script src="js/Pipe.js"></script>
+    <script src="js/Bird.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
